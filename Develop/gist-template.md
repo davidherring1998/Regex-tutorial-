@@ -1,10 +1,9 @@
 # Introduction to Regex
 
-This tutorial will teach you all you need to know about regular expressions or commonly known as regex! Let's start with the basic definition, regex is a sequence of characters that defines a search pattern that helps match, locate and search through text. Let's dive a bit deeper!
+This tutorial will teach you all you need to know about regular expressions or commonly known as regex! Let's start with the basic definition, regex is a sequence of characters that defines a search pattern that helps match, locate and search through text. Once you learn the new syntax you will be able to user regex in almost any programming language! Let's dive a bit deeper and learn some syntax!
+
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
+In this tutorial you will learn how to search threw documents by using patterns to locate text using the regex syntax.
 
 ## Table of Contents
 
@@ -21,11 +20,26 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+ " . " : The period operator matches any single character, for example sle.h will return aisle, isle, and  hassle.
+
+"\ followed by a single character" : The backslash operator matches special characters as a single character, \.css$ will return any string ending in .css.
+
+" $ " : The dollar sign operator matches any string where the pattern occurs at the end of the string. Ex. /e$/ matches apple and snapple but not apples.
+
+" ^ " : The upward arrow matches any string where the pattern happens at the start of the string. Ex. ^apple matches apples but not snapple. 
+
+" [] " : The bracket operator matches any one character inside the brackets, for example [abc] will return and string that a 'a', 'b', or 'c' occurs.
+
+" | " : 
+
+" () " :
+
+" A single characters " : 
 
 ### Anchors
 
 ### Quantifiers
-
+<!-- https://analytics.webtrends.help/docs/regular-expression-components -->
 ### OR Operator
 
 ### Character Classes
