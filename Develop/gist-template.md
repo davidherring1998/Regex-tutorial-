@@ -30,11 +30,9 @@ In this tutorial you will learn how to search threw documents by using patterns 
 
 " [] " : The bracket operator matches any one character inside the brackets, for example [abc] will return and string that a 'a', 'b', or 'c' occurs.
 
-" | " : 
+" | " : This operator is called the or operator. Ex apple|dog find the sting including  apple or dog.
 
-" () " :
-
-" A single characters " : 
+" () " : The parenthesis are used to group expressions!
 
 ### Anchors
 
